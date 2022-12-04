@@ -1,0 +1,3 @@
+select count(IDVerbale) as totale from Verbale
+select count(Idverbale) as specifica from Anagrafica group by IDAnagrafica
+select count(IdVerbale) as Conteggio from TipoViolazione group by IDTipoViolazione
